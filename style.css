@@ -251,7 +251,7 @@ header .carousel-item {
 
 
 header .carousel-three {
-    background-image: url(../imgs/header.jpg);
+    background-image: url(header.jpg);
 }
 
 header button a {
@@ -269,7 +269,7 @@ header button a {
 
 .about {
     padding-top: 70px;
-    background-image: url(../imgs/bg.png);
+    background-image: url(bg.png);
     background-size: 100% 90%;
     background-repeat: no-repeat;
     margin-bottom: 100px;
@@ -321,7 +321,7 @@ header button a {
 }
 
 .about .container > .row:first-of-type .img {
-    background-image: url('../imgs/pic10.jpg');
+    background-image: url('pic10.jpg');
     background-size: cover;
     height: 400px;
     width: 659px;
@@ -337,7 +337,7 @@ header button a {
     height: 450px;
     width: 580px;
     right: 120px;
-    background-image: url('../imgs/pic1.png');
+    background-image: url('pic1.png');
     background-size: cover;
     position: relative
 }
@@ -345,7 +345,7 @@ header button a {
     height: 450px;
     width: 580px;
     right: 120px;
-    background-image: url('../imgs/adjacent.png');
+    background-image: url('adjacent.png');
     background-size: cover;
     position: relative
 }
@@ -353,7 +353,7 @@ header button a {
     height: 450px;
     width: 580px;
     right: 120px;
-    background-image: url('../imgs/adjoining.png');
+    background-image: url('adjoining.png');
     background-size: cover;
     position: relative
 }
@@ -399,7 +399,7 @@ header button a {
 
 .gallery {
     padding: 70px 0;
-    background-image: url('../imgs/pic9.jpg');
+    background-image: url('pic9.jpg');
     background-size: cover;
 }
 
@@ -440,20 +440,20 @@ header button a {
 }
 
 .gallery .pic-one {
-    background-image: url('../imgs/pic6.jpg')
+    background-image: url('pic6.jpg')
 }
 
 .gallery .pic-two {
-    background-image: url('../imgs/pic3.jpg')
+    background-image: url('pic3.jpg')
 }
 .gallery .pic-three {
-    background-image: url('../imgs/pic4.jpg')
+    background-image: url('pic4.jpg')
 }
 .gallery .pic-four {
-    background-image: url('../imgs/pic2.jpg')
+    background-image: url('pic2.jpg')
 }
 .gallery .pic-five {
-    background-image: url('../imgs/pic5.jpg')
+    background-image: url('pic5.jpg')
 }
 
 /* slider */
@@ -564,7 +564,7 @@ header button a {
     width: 680px;
     left: 0;
     bottom: 0px;
-    background-image: url(../imgs/pic1.jpg);
+    background-image: url('pic1.jpg');
     background-size: cover;
 }
 
@@ -583,7 +583,7 @@ header button a {
 /* footer */
 
 footer {
-    background-image: url('../imgs/pic8.jpg');
+    background-image: url('pic8.jpg');
     background-size: cover;
     color: white
 }
