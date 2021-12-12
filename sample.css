@@ -3,7 +3,7 @@ body {
   margin: 0 auto;
   padding: 50px;
 font-family: Times New Roman, Garamond, serif;
-background-image:  url('../availability/background.png');
+background-image:  url('background.png');
 }
 h1{
 text-align: center;
