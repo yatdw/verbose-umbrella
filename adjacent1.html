@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta chartset="utf-8">
+<meta name="viewport" content="width=device-width, initail-scale=1">
+<title>Your submission has been recorded</title>
+<link rel="stylesheet" href="../css/login.css"> </link>
+</head>
+<body>
+
+<div style="text-align:center;">
+<h1>Thank you!</h1>
+<p>Your submission has been received. We wish you a happy holiday.</p>
+<h2>You`ve Choosen<h2>
+<h3>Adjacent Room<h3>
+<img src="../availability/adjacent.png" alt="room 1" width="460" height="345"><br>
+
+
+
+<span id="timer"></span></div>
+<script type="text/javascript">
+var count = 5;
+var redirect = "../index.html";
+function countDown(){
+var timer = document.getElementById("timer");
+if(count > 0){
+count--;
+timer.innerHTML = "This page will redirect in "+count+" seconds.";
+setTimeout("countDown()", 1000);
+}else{
+window.location.href = redirect;
+}
+}
+countDown();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="../css/sample.css">
+</head>
+<body>
+<h1>LLAVE HOTEL</h1>
+<br>
+<br>
+<a id="logo" href="../index.html">
+<img alt="HOME" src="../availability/ILLAVE.png.jpg">
+</a>
+<form action="adjoining1.html" method="GET">
+<fieldset>
+<legend>Guest Details: </legend>
+    <label for="name">Your Full Name</label>
+    <input type="text" id="name" name="visitor_name" placeholder="Emmanuel Angelo" pattern=[A-Z\sa-z]{3,20} required>
+    <label for="email">Your E-mail Address</label>
+    <input type="email" id="email" name="visitor_email" placeholder="ea*******@email.com" required>
+    <label for="phone">Your Phone Number</label>
+    <input type="tel" id="phone" name="visitor_phone" placeholder="09XXXXXXXXX" pattern=(\d{11}) required>
+    <label for="guest">Total People</label>
+    <input type="number" id="adult" name="total_guest" placeholder="1-16" min="1" max="16" required>
+    <label for="guest">Total Room</label>
+    <input type="number" id="adult" name="total_guest" placeholder="1-4" min="1" max="4" required>
+    <label for="checkin-date">Check-in Date</label>
+    <input type="date" id="checkin-date" name="checkin" required>
+    <label for="checkout-date">Check-out Date</label>
+    <input type="date" id="checkout-date" name="checkout" required>
+    <label for="room-selection">Room Preference:</label><br>
+    <label for="room-selection">ADJOINING ROOM</label>
+<img src="../availability/adjoining.png" alt="centered image"><br>
+
+<input type="submit" value="Book Now">
+</fieldset><br>
+<a href="#top">BACK TO TOP</a>
+    
+</form>
+</body>
+</html>
